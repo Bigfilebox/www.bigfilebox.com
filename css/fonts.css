@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'ITC_Zapf_Dingbats_Medium';
+    src: url('../fonts/ITC_Zapf_Dingbats_Medium.eot');
+    src: url('../fonts/ITC_Zapf_Dingbats_Medium.eot') format('embedded-opentype'),
+         url('../fonts/ITC_Zapf_Dingbats_Medium.woff2') format('woff2'),
+         url('../fonts/ITC_Zapf_Dingbats_Medium.woff') format('woff'),
+         url('../fonts/ITC_Zapf_Dingbats_Medium.ttf') format('truetype'),
+         url('../fonts/ITC_Zapf_Dingbats_Medium.svg#ITC_Zapf_Dingbats_Medium') format('svg');
+}
