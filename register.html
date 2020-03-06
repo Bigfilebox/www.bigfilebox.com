@@ -161,6 +161,7 @@
               <br />
               <br />
               <form
+                name="new-bfb-signup"
                 action="/register_complete.html"
                 method="POST"
                 data-netlify="true"
@@ -168,6 +169,7 @@
                 <div class="form-group">
                   <label for="accountNameInput"> <h3>Account Name</h3></label>
                   <input
+                    name="account_name"
                     required="true"
                     pattern="^[a-zA-Z0-9][a-zA-Z0-9\-]+$"
                     title="The name for the account. You will login here in future. Must start with a letter and only contain letters, numbers and dashes."
@@ -179,6 +181,7 @@
                 <div class="form-group">
                   <label for="emailInput"><h3>Email</h3></label>
                   <input
+                    name="email"
                     type="email"
                     class="form-control"
                     title="You contact email, this will be your Bigfilebox login"
