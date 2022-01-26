@@ -1,264 +1,871 @@
-
 /*--------------media query css------------------*/
 /*------------tablet landscape view------*/
 @media (min-width: 1500px) {
-.container { max-width: 1500px; width: 100% }
+  .container {
+    max-width: 1500px;
+    width: 100%;
+  }
 }
 
-@media (max-width:1519px) {
-.enumenu_container { margin-right: 0px; }
-.wrapper { overflow: hidden }
+@media (max-width: 1519px) {
+  .enumenu_container {
+    margin-right: 0px;
+  }
+  .wrapper {
+    overflow: hidden;
+  }
 }
 
-@media (max-width:1499px) {
-.overlay-text-bottom a { margin-left: 8%; }
-.enumenu_ul li a { font-size: 17px; margin-left: 1px; }
-.res-space img { width: 100% }
-.benefit-space img { width: 48px }
-.benefit-space p { font-size: 20px; }
-.benefit-disc li { font-size: 17px; }
-.imgbox img { width: 100% }
-.enumenu_ul { margin-top: 8px; margin-bottom: 0 }
-.overlay-text-bottom span.trial { line-height: 15px; }
-.banner.inner-banner .overlay-text p { color: #fff; font-size: 60px; font-weight: 300; letter-spacing: -0.02em; line-height: 135px; }
-.enumenu_container { margin-right: 0px; }
-.discrition-padd.discrition-padd2 p { max-width: 100%; }
-.container { max-width: 100%; width: auto }
-.file-safe p { padding: 0 60px; max-width: 100%; margin: 0 auto; width: 100% }
-.banner .hero-image{background-size: cover;}
+@media (max-width: 1499px) {
+  .overlay-text-bottom a {
+    margin-left: 8%;
+  }
+  .enumenu_ul li a {
+    font-size: 17px;
+    margin-left: 1px;
+  }
+  .res-space img {
+    width: 100%;
+  }
+  .benefit-space img {
+    width: 48px;
+  }
+  .benefit-space p {
+    font-size: 20px;
+  }
+  .benefit-disc li {
+    font-size: 17px;
+  }
+  .imgbox img {
+    width: 100%;
+  }
+  .enumenu_ul {
+    margin-top: 8px;
+    margin-bottom: 0;
+  }
+  .overlay-text-bottom span.trial {
+    line-height: 15px;
+  }
+  .banner.inner-banner .overlay-text p {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 300;
+    letter-spacing: -0.02em;
+    line-height: 135px;
+  }
+  .enumenu_container {
+    margin-right: 0px;
+  }
+  .discrition-padd.discrition-padd2 p {
+    max-width: 100%;
+  }
+  .container {
+    max-width: 100%;
+    width: auto;
+  }
+  .file-safe p {
+    padding: 0 60px;
+    max-width: 100%;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .banner .hero-image {
+    background-size: cover;
+  }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1499px) {
-.overlay-text p { font-size: 64px; line-height: 72px; }
-.overlay-text-bottom p { font-size: 24px; line-height: 40px; }
-h2, .our-team li h2 { font-size: 33px !important; }
-.center-pad { margin-bottom: 12px; }
-h3, .our-team-page h3 { color: #971d59; font-size: 32px !important; font-weight: 600 !important; letter-spacing: -0.02em; }
-h4 { font-size: 26px !important; }
-.discrition-padd p, .our-team-page p, .our-team li P, .teamdisc a { font-size: 19px; }
-.discrition-padd p strong { font-size: 19px; }
-.our-team li h4 { font-size: 26px !important; letter-spacing: -0.01em; margin-top: 6px; }
-.our-team li h2 span { font-size: 27px !important; }
-.testimonials h4 { font-size: 36px !important; }
-.trail-section p { font-size: 40px; }
-.testimonials .carousel-inner p { font-size: 25px; }
-.container { width: 85%; }
-.center-pad h2 { font-size: 24px !important; }
-.benefit-space p { font-size: 15px; line-height: 27px; }
-.discrition-padd p { padding: 0 20px 6px; }
-.circle-bg { height: 260px; line-height: 260px; width: 260px; }
-.enumenu_ul li a { font-size: 16px; margin-left: 1px; }
-.enumenu_ul li a { padding: 4px 10px; }
-.banner .hero-image{background-size: cover;}
-.banner.inner-banner .overlay-text a {
-
-  margin-left: 40px;
-
+@media screen and (min-width: 768px) and (max-width: 2499px) {
+  .overlay-text p {
+    font-size: 64px;
+    line-height: 72px;
+  }
+  .overlay-text-bottom p {
+    font-size: 24px;
+    line-height: 40px;
+  }
+  h2,
+  .our-team li h2 {
+    font-size: 33px !important;
+  }
+  .center-pad {
+    margin-bottom: 12px;
+  }
+  h3,
+  .our-team-page h3 {
+    color: #971d59;
+    font-size: 32px !important;
+    font-weight: 600 !important;
+    letter-spacing: -0.02em;
+  }
+  h4 {
+    font-size: 26px !important;
+  }
+  .discrition-padd p,
+  .our-team-page p,
+  .our-team li P,
+  .teamdisc a {
+    font-size: 19px;
+  }
+  .discrition-padd p strong {
+    font-size: 19px;
+  }
+  .our-team li h4 {
+    font-size: 26px !important;
+    letter-spacing: -0.01em;
+    margin-top: 6px;
+  }
+  .our-team li h2 span {
+    font-size: 27px !important;
+  }
+  .testimonials h4 {
+    font-size: 36px !important;
+  }
+  .trail-section p {
+    font-size: 40px;
+  }
+  .testimonials .carousel-inner p {
+    font-size: 25px;
+  }
+  .container {
+    width: 85%;
+  }
+  .center-pad h2 {
+    font-size: 24px !important;
+  }
+  .benefit-space p {
+    font-size: 15px;
+    line-height: 27px;
+  }
+  .discrition-padd p {
+    padding: 0 20px 6px;
+  }
+  .circle-bg {
+    height: 260px;
+    line-height: 260px;
+    width: 260px;
+  }
+  .enumenu_ul li a {
+    font-size: 16px;
+    margin-left: 1px;
+  }
+  .enumenu_ul li a {
+    padding: 4px 10px;
+  }
+  .banner .hero-image {
+    background-size: cover;
+  }
+  .banner.inner-banner .overlay-text a {
+    margin-left: 40px;
+  }
+  .overlay-text-bottom a {
+    margin-left: 7%;
+  }
 }
-.overlay-text-bottom a {
-  margin-left: 7%;
-}
-}
 
-@media (max-width:1200px) {
-.main { width: 90%; margin: 0 5%; }
-.enumenu_ul li a { font-size: 14px; margin-left: 0px; }
-.logo a img { width: 100%; height: auto; }
-.center-pad { margin-bottom: 22px; }
-.benefit-space { margin-bottom: 28px; }
-.benefit-disc li { font-size: 12px; line-height: 29px; background-position: 9px 12px; }
-.benefit-disc { margin-top: 30px; }
-.testimonials .carousel-inner p { font-size: 19px; color: #6B6B6B; line-height: 31px; position: relative; padding: 0px 50px; }
-.testimonials .carousel-inner p::before { width: 34px; height: 32px; content: ""; position: absolute; left: 11px; }
-.testimonials .carousel-inner p::after { width: 34px; height: 32px; content: ""; position: absolute; right: 40px; bottom: -10px; }
-.testimonials .carousel-inner span { font-size: 15px; }
-.testimonials .carousel-inner p { color: #6b6b6b; font-size: 19px; line-height: 31px; margin: 0 auto; padding: 0 50px; position: relative; text-align: center; width: 280px; }
-.overlay-text-bottom a { margin-left: 4px; }
-.banner .hero-image{background-size: cover;}
-.banner.inner-banner .overlay-text p { font-size: 50px; }
-.banner.inner-banner .overlay-text a { background: #7f9f40 none repeat scroll 0 0; border-radius: 13px; color: #ffffff; display: inline-block; font-size: 40px; font-weight: 600; letter-spacing: -0.02em; margin-left: 54px; padding: 8px 23px 8px; vertical-align: super; }
-.teampad img { width: 100% }
-.circle-bg img { height: auto; text-align: center; width: 53%; }
-.circle-bg { height: 205px; line-height: 205px; width: 205px; }
-.discrition-padd p { color: #575758; padding: 0 20px 6px; }
-.our-team-page p { padding: 0 20px 6px; }
-.banner.inner-banner .overlay-text a {
-
-  margin-left: 10px;
-
-}
-.overlay-text-bottom a {
-  margin-left: 3.5%;
-}
-.overlay-text-bottom p {
-
-  width: 65%;
-}
+@media (max-width: 1200px) {
+  .main {
+    width: 90%;
+    margin: 0 5%;
+  }
+  .enumenu_ul li a {
+    font-size: 14px;
+    margin-left: 0px;
+  }
+  .logo a img {
+    width: 100%;
+    height: auto;
+  }
+  .center-pad {
+    margin-bottom: 22px;
+  }
+  .benefit-space {
+    margin-bottom: 28px;
+  }
+  .benefit-disc li {
+    font-size: 12px;
+    line-height: 29px;
+    background-position: 9px 12px;
+  }
+  .benefit-disc {
+    margin-top: 30px;
+  }
+  .testimonials .carousel-inner p {
+    font-size: 19px;
+    color: #6b6b6b;
+    line-height: 31px;
+    position: relative;
+    padding: 0px 50px;
+  }
+  .testimonials .carousel-inner p::before {
+    width: 34px;
+    height: 32px;
+    content: "";
+    position: absolute;
+    left: 11px;
+  }
+  .testimonials .carousel-inner p::after {
+    width: 34px;
+    height: 32px;
+    content: "";
+    position: absolute;
+    right: 40px;
+    bottom: -10px;
+  }
+  .testimonials .carousel-inner span {
+    font-size: 15px;
+  }
+  .testimonials .carousel-inner p {
+    color: #6b6b6b;
+    font-size: 19px;
+    line-height: 31px;
+    margin: 0 auto;
+    padding: 0 50px;
+    position: relative;
+    text-align: center;
+    width: 280px;
+  }
+  .overlay-text-bottom a {
+    margin-left: 4px;
+  }
+  .banner .hero-image {
+    background-size: cover;
+  }
+  .banner.inner-banner .overlay-text p {
+    font-size: 50px;
+  }
+  .banner.inner-banner .overlay-text a {
+    background: #7f9f40 none repeat scroll 0 0;
+    border-radius: 13px;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    margin-left: 54px;
+    padding: 8px 23px 8px;
+    vertical-align: super;
+  }
+  .teampad img {
+    width: 100%;
+  }
+  .circle-bg img {
+    height: auto;
+    text-align: center;
+    width: 53%;
+  }
+  .circle-bg {
+    height: 205px;
+    line-height: 205px;
+    width: 205px;
+  }
+  .discrition-padd p {
+    color: #575758;
+    padding: 0 20px 6px;
+  }
+  .our-team-page p {
+    padding: 0 20px 6px;
+  }
+  .banner.inner-banner .overlay-text a {
+    margin-left: 10px;
+  }
+  .overlay-text-bottom a {
+    margin-left: 3.5%;
+  }
+  .overlay-text-bottom p {
+    width: 65%;
+  }
 }
 
 /*------------tablet portrait  view------*/
-@media (max-width:991px) {
-.overlay-text-bottom p { display: inline-block; font-weight: 600; color: #FFF; font-size: 25px; letter-spacing: -0.02em; line-height: 45px; width: 60%; vertical-align: middle; padding-right: 50px; }
-.center-pad h2 { font-size: 28px !important; }
-.benefit-space p { font-size: 14px; line-height: 27px; min-height: 81px; }
-.benefit-disc li { background-position: 9px 8px; line-height: 22px; }
-.trail-section p { font-size: 37px; }
-.footermenu p { font-size: 15px; color: #FFF; font-weight: 600; }
-.footermenu p img { margin-left: 8px; width: 65%; }
-.overlay-text p { font-size: 64px; line-height: 92px; }
-.overlay-text-bottom { padding-top: 20px; }
-.overlay-text-bottom a { font-size: 25px; }
-.banner .hero-image{background-size: contain;}
-.overlay-text p sup { top: -39px; }
-.overlay-text p br { display: none; }
-.res-space { margin-top: 30px; }
-.benefit-space p { line-height: 23px; }
-.benefit-disc li { line-height: 20px }
-.borderbtm { margin: 20px 0 }
-.teamrow { margin-top: 20px; }
-.borderbtm.borderbtm2 { margin-top: 20px; }
-.trail-section { margin-top: 20px; padding-top: 20px; padding-bottom: 20px; }
-.our-team-page p { padding: 0px 10px 6px; line-height: 32px; }
-.enumenu_ul li a { font-size: 12px; margin-left: 0px; padding: 4px 4px; }
-.enumenu_ul > li { display: inline-block; vertical-align: top; position: relative; }
-.testimonials .carousel-inner p::before, .testimonials .carousel-inner p::after { display: none }
-.testimonials .carousel-inner p .visible-xs, .testimonials .carousel-inner p .visible-sm { display: inline-block !important }
-.testimonials .carousel-inner p { color: #6b6b6b; font-size: 19px; line-height: 31px; margin: 0 auto; padding: 0 50px; position: relative; text-align: center; width: auto; }
-.trail-section p a { margin-left: 39px; }
-.banner.inner-banner .overlay-text a span.trial { line-height: 15px; }
-.banner.inner-banner .overlay-text a { background: #7f9f40 none repeat scroll 0 0; border-radius: 13px; color: #ffffff; display: inline-block; font-size: 25px; font-weight: 600; letter-spacing: -0.02em; margin-left: 44px; padding: 8px 23px; vertical-align: super; }
-.banner.inner-banner .overlay-text p { font-size: 41px; }
-.borderbtm.borderbtm3 { margin-bottom: 21px; margin-top: 21px; }
-.the-features-page .borderbtm.borderbtm2 { margin: 25px 0 25px; }
-.circle-bg { height: 175px; line-height: 175px; width: 175px; }
-.overlay-text-bottom a { margin-left: 11px; }
-.logo a img { width: 180px; }
-.enumenu_ul { margin-top: 6px; margin-bottom: 0; }
-header { padding-top: 13px; padding-bottom: 11px; }
-h3 { color: #971d59; font-size: 32px !important; font-weight: 600 !important; letter-spacing: -0.02em; }
-h4 { color: #5c5c5e; font-size: 30px !important; font-weight: 400 !important; letter-spacing: -0.02em; }
-.enumenu_ul > li > a { font-size: 11px; padding: 6px; }
-.banner.inner-banner .overlay-text a {
+@media (max-width: 991px) {
+  .overlay-text-bottom p {
+    display: inline-block;
+    font-weight: 600;
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: -0.02em;
+    line-height: 45px;
+    width: 60%;
+    vertical-align: middle;
+    padding-right: 50px;
+  }
+  .center-pad h2 {
+    font-size: 28px !important;
+  }
+  .benefit-space p {
+    font-size: 14px;
+    line-height: 27px;
+    min-height: 81px;
+  }
+  .benefit-disc li {
+    background-position: 9px 8px;
+    line-height: 22px;
+  }
+  .trail-section p {
+    font-size: 37px;
+  }
+  .footermenu p {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 600;
+  }
+  .footermenu p img {
+    margin-left: 8px;
+    width: 65%;
+  }
+  .overlay-text p {
+    font-size: 64px;
+    line-height: 92px;
+  }
+  .overlay-text-bottom {
+    padding-top: 20px;
+  }
+  .overlay-text-bottom a {
+    font-size: 25px;
+  }
+  .banner .hero-image {
+    background-size: contain;
+  }
+  .overlay-text p sup {
+    top: -39px;
+  }
+  .overlay-text p br {
+    display: none;
+  }
+  .res-space {
+    margin-top: 30px;
+  }
+  .benefit-space p {
+    line-height: 23px;
+  }
+  .benefit-disc li {
+    line-height: 20px;
+  }
+  .borderbtm {
+    margin: 20px 0;
+  }
+  .teamrow {
+    margin-top: 20px;
+  }
+  .borderbtm.borderbtm2 {
+    margin-top: 20px;
+  }
+  .trail-section {
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .our-team-page p {
+    padding: 0px 10px 6px;
+    line-height: 32px;
+  }
+  .enumenu_ul li a {
+    font-size: 12px;
+    margin-left: 0px;
+    padding: 4px 4px;
+  }
+  .enumenu_ul > li {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+  }
+  .testimonials .carousel-inner p::before,
+  .testimonials .carousel-inner p::after {
+    display: none;
+  }
+  .testimonials .carousel-inner p .visible-xs,
+  .testimonials .carousel-inner p .visible-sm {
+    display: inline-block !important;
+  }
+  .testimonials .carousel-inner p {
+    color: #6b6b6b;
+    font-size: 19px;
+    line-height: 31px;
+    margin: 0 auto;
+    padding: 0 50px;
+    position: relative;
+    text-align: center;
+    width: auto;
+  }
+  .trail-section p a {
+    margin-left: 39px;
+  }
+  .banner.inner-banner .overlay-text a span.trial {
+    line-height: 15px;
+  }
+  .banner.inner-banner .overlay-text a {
+    background: #7f9f40 none repeat scroll 0 0;
+    border-radius: 13px;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    margin-left: 44px;
+    padding: 8px 23px;
+    vertical-align: super;
+  }
+  .banner.inner-banner .overlay-text p {
+    font-size: 41px;
+  }
+  .borderbtm.borderbtm3 {
+    margin-bottom: 21px;
+    margin-top: 21px;
+  }
+  .the-features-page .borderbtm.borderbtm2 {
+    margin: 25px 0 25px;
+  }
+  .circle-bg {
+    height: 175px;
+    line-height: 175px;
+    width: 175px;
+  }
+  .overlay-text-bottom a {
+    margin-left: 11px;
+  }
+  .logo a img {
+    width: 180px;
+  }
+  .enumenu_ul {
+    margin-top: 6px;
+    margin-bottom: 0;
+  }
+  header {
+    padding-top: 13px;
+    padding-bottom: 11px;
+  }
+  h3 {
+    color: #971d59;
+    font-size: 32px !important;
+    font-weight: 600 !important;
+    letter-spacing: -0.02em;
+  }
+  h4 {
+    color: #5c5c5e;
+    font-size: 30px !important;
+    font-weight: 400 !important;
+    letter-spacing: -0.02em;
+  }
+  .enumenu_ul > li > a {
+    font-size: 11px;
+    padding: 6px;
+  }
+  .banner.inner-banner .overlay-text a {
+    margin-left: 10px;
+  }
+  .trail-section p a {
+    margin-left: 18px;
+  }
+  .footermenu p img {
+    margin-left: 8px;
+    width: 60%;
+  }
+  .overlay-text-bottom p {
+    padding-right: 37px;
 
-  margin-left: 10px;
-
-}
-.trail-section p a {
-  margin-left: 18px;
-}
-.footermenu p img {
-  margin-left: 8px;
-  width: 60%;
-}
-.overlay-text-bottom p {
-
-  padding-right: 37px;
-
-  width: 58%;
-}
-.center-pad h2 {
-  font-size: 16px !important;
-}
+    width: 58%;
+  }
+  .center-pad h2 {
+    font-size: 16px !important;
+  }
 }
 /*------------mobile landscape  view------*/
-@media (max-width:767px) {
-.enumenu_ul { display: none }
-.menu-block { height: auto; }
-.menu-icon { display: block }
-.services-detail a.pba-detail { border-bottom: 2px solid #d3d9da; }
-.enumenu_ul > li { display: block; margin: 0px; padding: 0px; float: none; margin: 0px 0 5px 0; }
-.enumenu_ul > li > a { text-align: center; padding: 8px; text-align: center; line-height: 30px; font-size: 15px }
-.enumenu_ul { width: 100%; }
-.enumenu_ul > li ul { background: #D1D1D1; }
-.enumenu_ul > li ul a { text-align: center; display: block; text-align: center; color: #000; padding: 5px 0; }
-.center-pad h2 { font-size: 39px !important; }
-.benefit-space p { font-size: 20px; min-height: 100%; }
-.benefit-disc li { background-position: 9px 8px; line-height: 26px; display: table; font-size: 17px; background-position: 9px 12px; margin: 0 auto; }
-h4 { font-size: 28px !important; }
-h3, .our-team-page h3 { font-size: 37px !important; }
-.footermenu p img { margin-left: 8px; width: auto; }
-.imgbox .col-xs-12 { margin-bottom: 20px; }
-.discrition-padd p strong { font-size: 20px; line-height: 30px; }
-.discrition-padd p { font-size: 18px; line-height: 30px; }
-.trail-section p { font-size: 30px; }
-.trail-section p a { padding: 15px 15px 15px; }
-.borderbtm { margin: 35px 0px 34px; }
-.borderbtm.borderbtm2 { margin: 35px 0px 0px; }
-.trail-section { padding-top: 58px; margin-top: 50px; padding-bottom: 71px; }
-.logo a img { width: 216px; }
-.overlay-text p { font-size: 80px; font-weight: 300; color: #FFF; line-height: 87px; letter-spacing: -0.02em; }
-.overlay-text p sup { font-weight: 600; font-size: 20px; top: -33px; letter-spacing: 0px; left: 7px; }
-.overlay-text-bottom a { font-size: 27px; margin-left: 5px; }
-.res-space { text-align: center; margin-top: 30px; }
-.overlay-text-bottom { padding-top: 19px; }
-.overlay-text-bottom p { font-size: 22px; letter-spacing: -0.02em; line-height: 30px; width: 100%; margin-bottom: 34px; padding-right: 0 }
-.banner { height: 527px; }
-.overlay-text, .overlay-text-bottom { text-align: center; }
-.overlay-text p br { display: none }
-.overlay-text p { font-size: 50px; line-height: 77px; }
-.res-space { margin-top: 15px; }
-.benefit-space p br { display: none; }
-.res-space .col-md-4 { padding-bottom: 15px; }
-.res-space .col-md-4:last-child { border-bottom: 0 }
-.borderbtm { margin: 20px 0 }
-.discrition-padd p { font-size: 14px; line-height: 24px; padding: 0px 20px 6px; color: #575758; }
-.discrition-padd p strong { font-size: 16px; line-height: 22px; }
-.testimonials { padding: 20px 0 }
-.testimonials h4 { font-size: 33px !important }
-.carousel-inner { margin-top: 20px; }
-.trail-section { margin-top: 0; padding-top: 20px; padding-bottom: 20px; }
-.circle-bg { border-radius: 50%; line-height: 275px; height: 275px; width: 275px; margin: 0px auto 40px; }
-.overlay-text-bottom a { font-size: 26px; margin-left: 0; }
-.table-responsive { padding-bottom: 30px; }
-.banner.inner-banner .overlay-text a { margin-left: 0 }
-.banner.inner-banner .overlay-text a { margin: 0 auto; display: table; font-size: 25px; }
-.banner.inner-banner .overlay-text p { font-size: 41px; line-height: 70px; margin-top: 5%; }
-.teampad img { width: auto }
-.our-team li h2 { font-size: 41px !important; letter-spacing: -0.035em; margin-bottom: 0; }
-.our-team li h4 { font-size: 30px !important; letter-spacing: -0.01em; margin-top: 6px; }
-.our-team li h2 span { font-size: 26px !important; }
-.our-team li P { font-size: 20px }
-.our-team li { border-top: 1px solid #cccccc; padding-bottom: 39px; padding-top: 20px; }
-.imgbox-feature .col-sm-4 { margin-bottom: 20px; }
-.imgbox-feature img { width: 100% }
-.discrition-padd2 { margin-bottom: 8px; }
-.discrition-padd.discrition-padd2 { margin-bottom: 0; margin-top: 18px; }
-.overlay-text-bottom a { padding: 11px 23px 11px; }
-header { padding-top: 13px; padding-bottom: 9px; }
-.testimonials .carousel-inner span { padding: 38px 0 56px 0; }
-.our-team-page p { font-size: 19px; }
+@media (max-width: 767px) {
+  .enumenu_ul {
+    display: none;
+  }
+  .menu-block {
+    height: auto;
+  }
+  .menu-icon {
+    display: block;
+  }
+  .services-detail a.pba-detail {
+    border-bottom: 2px solid #d3d9da;
+  }
+  .enumenu_ul > li {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    float: none;
+    margin: 0px 0 5px 0;
+  }
+  .enumenu_ul > li > a {
+    text-align: center;
+    padding: 8px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 15px;
+  }
+  .enumenu_ul {
+    width: 100%;
+  }
+  .enumenu_ul > li ul {
+    background: #d1d1d1;
+  }
+  .enumenu_ul > li ul a {
+    text-align: center;
+    display: block;
+    text-align: center;
+    color: #000;
+    padding: 5px 0;
+  }
+  .center-pad h2 {
+    font-size: 39px !important;
+  }
+  .benefit-space p {
+    font-size: 20px;
+    min-height: 100%;
+  }
+  .benefit-disc li {
+    background-position: 9px 8px;
+    line-height: 26px;
+    display: table;
+    font-size: 17px;
+    background-position: 9px 12px;
+    margin: 0 auto;
+  }
+  h4 {
+    font-size: 28px !important;
+  }
+  h3,
+  .our-team-page h3 {
+    font-size: 37px !important;
+  }
+  .footermenu p img {
+    margin-left: 8px;
+    width: auto;
+  }
+  .imgbox .col-xs-12 {
+    margin-bottom: 20px;
+  }
+  .discrition-padd p strong {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .discrition-padd p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .trail-section p {
+    font-size: 30px;
+  }
+  .trail-section p a {
+    padding: 15px 15px 15px;
+  }
+  .borderbtm {
+    margin: 35px 0px 34px;
+  }
+  .borderbtm.borderbtm2 {
+    margin: 35px 0px 0px;
+  }
+  .trail-section {
+    padding-top: 58px;
+    margin-top: 50px;
+    padding-bottom: 71px;
+  }
+  .logo a img {
+    width: 216px;
+  }
+  .overlay-text p {
+    font-size: 80px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 87px;
+    letter-spacing: -0.02em;
+  }
+  .overlay-text p sup {
+    font-weight: 600;
+    font-size: 20px;
+    top: -33px;
+    letter-spacing: 0px;
+    left: 7px;
+  }
+  .overlay-text-bottom a {
+    font-size: 27px;
+    margin-left: 5px;
+  }
+  .res-space {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .overlay-text-bottom {
+    padding-top: 19px;
+  }
+  .overlay-text-bottom p {
+    font-size: 22px;
+    letter-spacing: -0.02em;
+    line-height: 30px;
+    width: 100%;
+    margin-bottom: 34px;
+    padding-right: 0;
+  }
+  .banner {
+    height: 527px;
+  }
+  .overlay-text,
+  .overlay-text-bottom {
+    text-align: center;
+  }
+  .overlay-text p br {
+    display: none;
+  }
+  .overlay-text p {
+    font-size: 50px;
+    line-height: 77px;
+  }
+  .res-space {
+    margin-top: 15px;
+  }
+  .benefit-space p br {
+    display: none;
+  }
+  .res-space .col-md-4 {
+    padding-bottom: 15px;
+  }
+  .res-space .col-md-4:last-child {
+    border-bottom: 0;
+  }
+  .borderbtm {
+    margin: 20px 0;
+  }
+  .discrition-padd p {
+    font-size: 14px;
+    line-height: 24px;
+    padding: 0px 20px 6px;
+    color: #575758;
+  }
+  .discrition-padd p strong {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .testimonials {
+    padding: 20px 0;
+  }
+  .testimonials h4 {
+    font-size: 33px !important;
+  }
+  .carousel-inner {
+    margin-top: 20px;
+  }
+  .trail-section {
+    margin-top: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .circle-bg {
+    border-radius: 50%;
+    line-height: 275px;
+    height: 275px;
+    width: 275px;
+    margin: 0px auto 40px;
+  }
+  .overlay-text-bottom a {
+    font-size: 26px;
+    margin-left: 0;
+  }
+  .table-responsive {
+    padding-bottom: 30px;
+  }
+  .banner.inner-banner .overlay-text a {
+    margin-left: 0;
+  }
+  .banner.inner-banner .overlay-text a {
+    margin: 0 auto;
+    display: table;
+    font-size: 25px;
+  }
+  .banner.inner-banner .overlay-text p {
+    font-size: 41px;
+    line-height: 70px;
+    margin-top: 5%;
+  }
+  .teampad img {
+    width: auto;
+  }
+  .our-team li h2 {
+    font-size: 41px !important;
+    letter-spacing: -0.035em;
+    margin-bottom: 0;
+  }
+  .our-team li h4 {
+    font-size: 30px !important;
+    letter-spacing: -0.01em;
+    margin-top: 6px;
+  }
+  .our-team li h2 span {
+    font-size: 26px !important;
+  }
+  .our-team li P {
+    font-size: 20px;
+  }
+  .our-team li {
+    border-top: 1px solid #cccccc;
+    padding-bottom: 39px;
+    padding-top: 20px;
+  }
+  .imgbox-feature .col-sm-4 {
+    margin-bottom: 20px;
+  }
+  .imgbox-feature img {
+    width: 100%;
+  }
+  .discrition-padd2 {
+    margin-bottom: 8px;
+  }
+  .discrition-padd.discrition-padd2 {
+    margin-bottom: 0;
+    margin-top: 18px;
+  }
+  .overlay-text-bottom a {
+    padding: 11px 23px 11px;
+  }
+  header {
+    padding-top: 13px;
+    padding-bottom: 9px;
+  }
+  .testimonials .carousel-inner span {
+    padding: 38px 0 56px 0;
+  }
+  .our-team-page p {
+    font-size: 19px;
+  }
 }
 
 /*------------mobile portrait view------*/
-@media (max-width:640px) {
-.carousel-inner p { font-size: 19px; color: #6B6B6B; line-height: 31px; position: relative; padding: 0px 40px; }
-.testimonials .carousel-inner p::before { left: 8px; }
-.testimonials .carousel-inner p::after { right: 6px; }
-.trail-section p { font-size: 28px; }
-.trail-section p a { display: table; margin-left: 0; margin-top: 10px; padding: 12px 15px 10px; margin: 15px auto 0 }
-h3, .our-team-page h3 { font-size: 25px !important; }
-h4 { font-size: 22px !important; }
-.overlay-text p { font-size: 40px; font-weight: 300; color: #FFF; line-height: 47px; letter-spacing: -0.02em; }
-.overlay-text p sup { font-weight: 600; font-size: 20px; top: -16px; letter-spacing: 0px; left: 7px; }
-.overlay-text-bottom p { font-size: 24px; letter-spacing: -0.02em; line-height: 30px; width: 100%; margin-bottom: 34px; }
-.benefit-disc li { line-height: 26px; display: table; font-size: 13px; background-position: 0 11px; margin: 0px auto; padding-left: 10px; }
-.footer-logo img { width: 90%; height: auto; }
-.overlay-text-bottom p { font-size: 18px; letter-spacing: -0.02em; line-height: 25px; width: 100%; margin-bottom: 34px; }
-.overlay-text p sup { font-size: 15px; }
-.overlay-text p { font-size: 30px; line-height: 47px; }
-.banner.inner-banner .overlay-text p { font-size: 29px; line-height: 70px; }
-.banner.inner-banner .overlay-text { padding-top: 5.4%; }
-.our-team-page p { font-size: 20px; }
-.our-team li h2 { font-size: 31px !important; letter-spacing: -0.035em; margin-bottom: 0; }
-.our-team li h4 { font-size: 20px !important; letter-spacing: -0.01em; margin-top: 6px; }
-.our-team li h2 span { font-size: 24px !important; }
-.our-team li P { font-size: 20px }
-.the-features-page { padding-top: 24px; }
-.our-team-page { padding-top: 24px; }
-.our-team-page p { font-size: 14px; line-height: 24px; padding: 0px 0px 6px; }
-.our-team li P { font-size: 14px; line-height: 24px; }
-.our-team li h2 span { font-size: 22px !important; }
-.our-team li h2 { font-size: 27px !important; letter-spacing: -0.035em; margin-bottom: 0; }
-.teamdisc a { font-size: 14px; }
-.our-team li h4 { font-size: 18px !important; letter-spacing: -0.01em; margin-top: 6px; }
+@media (max-width: 640px) {
+  .carousel-inner p {
+    font-size: 19px;
+    color: #6b6b6b;
+    line-height: 31px;
+    position: relative;
+    padding: 0px 40px;
+  }
+  .testimonials .carousel-inner p::before {
+    left: 8px;
+  }
+  .testimonials .carousel-inner p::after {
+    right: 6px;
+  }
+  .trail-section p {
+    font-size: 28px;
+  }
+  .trail-section p a {
+    display: table;
+    margin-left: 0;
+    margin-top: 10px;
+    padding: 12px 15px 10px;
+    margin: 15px auto 0;
+  }
+  h3,
+  .our-team-page h3 {
+    font-size: 25px !important;
+  }
+  h4 {
+    font-size: 22px !important;
+  }
+  .overlay-text p {
+    font-size: 40px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 47px;
+    letter-spacing: -0.02em;
+  }
+  .overlay-text p sup {
+    font-weight: 600;
+    font-size: 20px;
+    top: -16px;
+    letter-spacing: 0px;
+    left: 7px;
+  }
+  .overlay-text-bottom p {
+    font-size: 24px;
+    letter-spacing: -0.02em;
+    line-height: 30px;
+    width: 100%;
+    margin-bottom: 34px;
+  }
+  .benefit-disc li {
+    line-height: 26px;
+    display: table;
+    font-size: 13px;
+    background-position: 0 11px;
+    margin: 0px auto;
+    padding-left: 10px;
+  }
+  .footer-logo img {
+    width: 90%;
+    height: auto;
+  }
+  .overlay-text-bottom p {
+    font-size: 18px;
+    letter-spacing: -0.02em;
+    line-height: 25px;
+    width: 100%;
+    margin-bottom: 34px;
+  }
+  .overlay-text p sup {
+    font-size: 15px;
+  }
+  .overlay-text p {
+    font-size: 30px;
+    line-height: 47px;
+  }
+  .banner.inner-banner .overlay-text p {
+    font-size: 29px;
+    line-height: 70px;
+  }
+  .banner.inner-banner .overlay-text {
+    padding-top: 5.4%;
+  }
+  .our-team-page p {
+    font-size: 20px;
+  }
+  .our-team li h2 {
+    font-size: 31px !important;
+    letter-spacing: -0.035em;
+    margin-bottom: 0;
+  }
+  .our-team li h4 {
+    font-size: 20px !important;
+    letter-spacing: -0.01em;
+    margin-top: 6px;
+  }
+  .our-team li h2 span {
+    font-size: 24px !important;
+  }
+  .our-team li P {
+    font-size: 20px;
+  }
+  .the-features-page {
+    padding-top: 24px;
+  }
+  .our-team-page {
+    padding-top: 24px;
+  }
+  .our-team-page p {
+    font-size: 14px;
+    line-height: 24px;
+    padding: 0px 0px 6px;
+  }
+  .our-team li P {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .our-team li h2 span {
+    font-size: 22px !important;
+  }
+  .our-team li h2 {
+    font-size: 27px !important;
+    letter-spacing: -0.035em;
+    margin-bottom: 0;
+  }
+  .teamdisc a {
+    font-size: 14px;
+  }
+  .our-team li h4 {
+    font-size: 18px !important;
+    letter-spacing: -0.01em;
+    margin-top: 6px;
+  }
 }
