@@ -106,7 +106,12 @@
           </div>
 
         </div>
-    
+        <div class="overlay-text-bottom">
+         <p>
+            <strong>Find out more</strong> or sign up for a free trial and see for yourself
+          </p>
+          <a class="pull-right" href="https://signup.bigfilebox.com/signup" title="Free 1 month trial*">Start a Free Trial now</a>
+        </div>
       </div>
     </div>
     <!-- midd section starts here-->
@@ -289,7 +294,7 @@
           <div class="container">
             <div class="row">
               <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 ">
-                <p>&copy;2023
+                <p>&copy;<span id="cyear"></span>
                 </p>
               </div>
               <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
@@ -356,6 +361,7 @@
         var s = document.getElementsByTagName('script')[0];
         s.parentNode.insertBefore(lc, s);
       })();
+      document.getElementById("cyear").textContent = new Date().getFullYear();
     </script>
 </body>
 
